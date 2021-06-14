@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ally 4 you</title>
+	<link rel="stylesheet" type="text/css" href="../style/global.css">
+	<link rel="stylesheet" type="text/css" href="../style/inscription.css">
+	<link rel="stylesheet" href="https://use.typekit.net/vcx0nww.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+</head>
+<body>
+	<div class="contenu">
+		<header>
+		<div class="logo">
+				<a href="../index.html"><img src="../images/logo.svg">	</a>			
+		</div>
+	<div class="menu_dekstop">
+				<nav>
+					<ul>
+						<li><a href="../index.html"> Accueil</a></li>
+						<li><a href="pages/actualites.html"> Actualités</a></li>
+						<li><a href="#"> Qui sommes nous</a></li>
+						<li><a href="#"> Contact</a></li>
+					</ul>
+				</nav>
+				
+	</div>
+	<div class="id_dekstop">
+					<div class="inscrire_dekstop">
+						<a href="#">S'inscrire</a>
+					</div>
+					<div class="connexion_dekstop">
+						<a href="#">Connexion</a>						
+					</div>
+				
+	</div>
+
+	<div class="menu">	
+		<div class="identifiant">
+					<div class="membre">
+						<img src="../images/icomembre.svg">
+					</div>
+					<div class="inscription">
+						<img src="../images/icomembre.svg">						
+					</div>
+				</div>
+		<nav>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="pages/actualites.html">actualités</a></li>
+                <li><a href="#">qui sommes nous</a></li>
+                <li><a href="#">contact</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+                <span class="icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </span>
+            </ul>
+        </nav>
+    </div>					
+	</header>	
+
+	<main>
+		
+		<h2>fiche de renseignement</h2>
+<form action="#">
+  <p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
+  <fieldset>
+    <legend>Contact</legend>
+		<div class="formContact">
+	  <label for="nom">Nom <em>*</em></label>
+      
+      <input id="nom" placeholder="ex: Dupont" autofocus="" required=""><br>
+		</div>
+		<div class="formContact">
+	  <label for="prenom">Prénom <em>*</em></label>
+      
+      <input id="prenom" placeholder="ex: Eric" autofocus="" required=""><br>
+		</div>
+		<div class="formContact">
+	  <label for="prenom">Portable </label>
+      
+      <input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br>
+		</div>
+		<div class="formContact">
+	  <label for="prenom">Email <em>*</em></label>
+      
+      <input id="email" type="email" placeholder="prenom.nom@polytechnique.edu" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"><br>
+		</div>
+		
+
+  </fieldset>
+  <fieldset>
+    <legend>Information personnelles</legend>
+      <label for="age">Age<em>*</em></label>
+      <input id="age" type="number" placeholder="xx" pattern="[0-9]{2}" required=""><br>
+      <label for="sexe">Sexe</label>
+      <select id="sexe">
+        <option value="F" name="sexe">Femme</option>
+        <option value="H" name="sexe">Homme</option>
+      </select><br>
+      <label for="comments">Pourquoi voulez-vous vous impliquer dans l'organisation du point γ?</label>
+      <textarea id="comments"></textarea>
+  </fieldset>
+ 
+  <fieldset>
+    <legend>Choisissez vos jeux favoris</legend>
+    <label for="lol"><input id="lol" type="checkbox" name="lol" value="lol"> League of legends</label>
+    <label for="oenologie"><input id="oenologie" type="checkbox" name="binet" value="vin"> Œnologie</label>
+    <label for="bobar"><input id="bobar" type="checkbox" name="binet" value="bob"> Bôbar</label>
+    <label for="Xpara"><input id="Xpara" type="checkbox" name="binet" value="para"> X-Para</label>
+    <label for="khomiss"><input id="khomiss" type="checkbox" name="binet" value="???"> Khômiss</label>
+    <label for="politix"><input id="politix" type="checkbox" name="binet" value="politix"> PolitiX</label>
+    <label for="raid"><input id="raid" type="checkbox" name="binet" value="raid"> Binet Raid</label>
+    <label for="Xsoirees"><input id="Xsoirees" type="checkbox" name="binet" value="fiesta"> X-soirées</label>
+  </fieldset>
+  <p><input type="submit" value="Soummettre"></p>
+</form>
+	</main>
+		
+	<section class="basdepage">
+			<div class="logoblc">
+				<img src="../images/logoblc.svg">
+			</div>
+
+			<div class="reseau">
+				<i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+				
+			</div>
+		</section>
+	<footer>
+			 <p>All right reserved - 2021 ally4you - newsletter - faq</p>
+		</footer>
+	</div>
+<script src=".././app.js"></script>
+</body>
+</html>
